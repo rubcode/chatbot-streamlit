@@ -28,7 +28,7 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 faq = []
 
 # Configuración de la interfaz
-st.set_page_config(page_title="Chatbot con CSV")
+st.set_page_config(page_title="Chatbot Infinitum")
 st.markdown("<h3 style='text-align:center; color: #009AD9'>GPT Infinitum</h3>", unsafe_allow_html=True)
 ##container del chat history
 chatContainer = st.container()
